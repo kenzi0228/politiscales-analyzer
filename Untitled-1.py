@@ -80,6 +80,7 @@ def apply_transformations_and_get_coordinates(scores):
     5) Retourne (x, y)
     """
 
+
     # 1) Normalisation des 16 variables dans [0,1]
     cstr = scores['constructivisme'] / 100.0
     ess  = scores['essentialisme']   / 100.0
