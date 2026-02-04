@@ -143,23 +143,41 @@ Ces estimations sont fournies à titre pédagogique et analytique.
 ## Architecture du projet
 
 politiscales-analyzer/
+
 │
+
 ├── main.py # Point d’entrée de l’application
+
 ├── ui.py # Interface graphique Tkinter
+
 ├── model.py # Calcul des coordonnées politiques
+
 ├── ocr.py # Extraction OCR des scores Politiscales
+
 │
+
 ├── personalities/
+
 │ └── personalities_data.py # Base de données des personnalités politiques
+
 │
+
 ├── plotting/
+
 │ └── plot_engine.py # Moteur de génération du graphique
+
 │
+
 ├── utils/
+
 │ └── transformations.py # Fonctions mathématiques et normalisations
+
 │
+
 ├── requirements.txt # Dépendances Python
+
 └── README.md # Documentation du projet
+
 
 ## Installation des dépendances
 
@@ -182,10 +200,15 @@ python main.py
 ## Exemple d’utilisation
 
 1- Lancer l’application
+
 2- Indiquer le nombre de personnes à comparer
+
 3- Importer les résultats Politiscales via OCR ou saisie manuelle
+
 4- Visualiser le positionnement politique
+
 5- Comparer avec les références idéologiques
+
 
 ## Auteur
 
