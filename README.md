@@ -190,7 +190,9 @@ python main.py
 ## Auteur
 
 Kenzi Lali
+
 Étudiant ingénieur en Data Science et Intelligence Artificielle
+
 ECE Paris
 
 ## Motivation du projet
